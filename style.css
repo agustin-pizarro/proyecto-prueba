@@ -1,0 +1,115 @@
+a{
+    text-decoration: none;
+    color: white;
+  }
+  
+  .barraNav{
+    background-image: linear-gradient(red, orange);
+    transition: all 2s;
+  }
+  
+  
+  .barraNav-lista{
+    text-align: right;
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    flex-wrap: nowrap;
+    transition: all 2s;
+  }
+  
+  .textoHeader{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    margin-left: 50%;
+    display: inline-block;
+    margin: 30px;
+    padding: 10px;
+    font-size: 20px;
+  }
+  
+  .logoPag{
+    display: flex;
+    flex-wrap: nowrap;
+    margin-left: 1%;
+    width: 300px;
+    height: 100px;
+    float: left;
+  }
+  /* INDEX */
+  body{
+    background-color: rgb(23, 23, 23);
+    font-family: 'League Spartan', sans-serif;
+  }
+  
+  .textoMain{
+    color: white;
+  }
+  
+  .primerFoto{
+    width: 500px;
+    height: 150px;
+  }
+  
+  .primerTit{
+    text-align: center;
+    font-size: 25px;
+  }
+  
+  .primerTex{
+    text-align: center;
+    font-size: 20px;
+  }
+  
+  .segundaFoto{
+    width: 500px;
+    height: 150px;
+  }
+  
+  .segundoTit{
+    text-align: center;
+    font-size: 25px;
+  }
+  
+  .segundoTex{
+    text-align: center;
+    font-size: 20px;
+  }
+
+  /* FOOTER */
+.footer{
+    color: rgb(255, 255, 255);
+    background-color: rgb(42, 41, 42);
+    position: absolute;
+    bottom: 0;
+    width: 100vw;
+    height: 20vh;
+    padding: 10px 0px;
+    text-align: center;
+    flex-direction: row;
+    list-style: none;
+  }
+  
+  .textoFooter{
+    color: white;
+    font-size: 25px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    flex-direction: row;
+    list-style: none;
+  } 
+  
+  .fa-brands{
+    list-style: none;
+  }
+  
+  i{
+    font-size: 35px;
+    padding: 5px;
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+  }
