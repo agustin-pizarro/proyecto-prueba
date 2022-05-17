@@ -2,6 +2,7 @@ $color-principal: #db091d;
 $color-fondo: rgb(28,27,28);
 $color-texto: white
 
+
 @mixin flexbox ($text , $flex, $list){
     text-align: $text;
     flex-direction: $flex;

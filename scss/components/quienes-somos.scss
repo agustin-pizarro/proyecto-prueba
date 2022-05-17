@@ -1,0 +1,87 @@
+a{
+  text-decoration: none;
+  color: $color-texto;
+}
+
+.barraNav{
+  background-color: $color-principal;
+  transition: all 2s;
+}
+
+
+.barraNav-lista{
+  text-align: right;
+  display: flex;
+  flex-direction: row;
+  justify-content: right;
+  flex-wrap: nowrap;
+  transition: all 2s;
+}
+
+.textoHeader{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  margin-left: 50%;
+  display: inline-block;
+  margin: 30px;
+  padding: 10px;
+  font-size: 20px;
+}
+
+.logoPag{
+  display: flex;
+  flex-wrap: nowrap;
+  margin-left: 1%;
+  width: 300px;
+  height: 100px;
+  float: left;
+}
+/* QUINES SOMOS */
+.textoQS{
+    color: $color-texto;
+    text-align: center;
+    margin-top: 10%;
+  }
+
+/* FOOTER */
+.footer{
+  color: $color-texto;
+  background-color: $color-fondo;
+  position: absolute;
+  bottom: 0;
+  width: 100vw;
+  padding: 10px 0px;
+  text-align: center;
+  flex-direction: row;
+  list-style: none;
+}
+
+.textoFooter{
+  color: $color-texto;
+  font-size: 25px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  flex-direction: row;
+  list-style: none;
+} 
+
+.ulFooter{
+list-style: none;
+display: flex;
+justify-content: center;
+}
+
+.fa-brands{
+  list-style: none;
+}
+
+i{
+  font-size: 35px;
+  padding: 5px;
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+}

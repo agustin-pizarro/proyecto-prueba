@@ -63,25 +63,111 @@ a{
   margin-left: 25%;
 }
 
-
-  .segundoTit{
+.segundoTit{
     text-align: center;
     font-size: 25px;
-  }
-  
-  .segundoTex{
+}
+
+.segundoTex{
     text-align: center;
     font-size: 20px;
-  }
+}
 
-  /* FOOTER */
+/* QUIENES-SOMOS */
+.textoQS{
+  color: white;
+  text-align: center;
+  margin-top: 10%;
+}
+
+/* GALERIA */
+.textoMusculacion{
+  text-align: center;
+}
+
+.imagenMusculacion{
+  margin-left: 70vh;
+  width: 500px;
+  height: 140px;
+}
+
+.textoCardio{
+  text-align: center;
+}
+
+.imagenCardio{
+  margin-left: 70vh;
+  width: 500px;
+  height: 140px;
+}
+
+.textoVestuario{
+  text-align: center;
+}
+
+.imagenVestuario{
+  margin-left: 70vh;
+  width: 500px;
+  height: 140px;
+}
+
+/* PRECIOS */
+.tituloTabla{
+  color: white;
+  text-align: center;
+  font-size: 30px;
+}
+
+.tablaPrecios{
+  color: white;
+  border-color: rgb(221,20,26);
+  margin-left: 30%;
+  height: 40vh;
+  width: 40vw;
+}
+
+.turnoTabla{
+  background-color: rgb(42, 41, 42);
+  text-align: center;
+}
+
+.precioTabla{
+  background-color: rgb(61, 60, 61);
+  text-align: center;
+}
+
+.textoTabla{
+  color: white;
+  text-align: center;
+  font-size: 20px;
+}
+
+/* CONTACTO */
+.textoMapa{
+  color: white;
+  font-size: 20px;
+  text-align: center;
+}
+
+.mapa{
+  width: 35vw;
+  height: 25vh;
+  margin-left: 32%;
+}
+
+.formulario{
+  color: white;
+  font-size: 20px;
+  text-align: center;
+}
+
+/* FOOTER */
 .footer{
     color: rgb(255, 255, 255);
     background-color: rgb(42, 41, 42);
     position: absolute;
     bottom: 0;
     width: 100vw;
-    height: 20vh;
     padding: 10px 0px;
     text-align: center;
     flex-direction: row;
@@ -99,6 +185,12 @@ a{
     list-style: none;
   } 
   
+.ulFooter{
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+
   .fa-brands{
     list-style: none;
   }
