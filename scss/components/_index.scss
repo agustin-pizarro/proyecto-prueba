@@ -9,3 +9,7 @@ body{
 .textoMain{
     color: $color-texto;
 }
+
+.footer{
+ @include flexbox(center, row, none)   
+}
