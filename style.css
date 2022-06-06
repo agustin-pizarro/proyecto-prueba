@@ -1,76 +1,65 @@
 a{
-    text-decoration: none;
-    color: white;
-  }
+  text-decoration: none;
+  color: white;
+}
+
+.logoPag{
+  height: 110px;
+  width: 300px;
+  margin-left: 20px;
+}
+
+.nav-link{
+  font-size: 20px;
+  margin-right: 40px;
+}
+
+/* INDEX */
+body{
+  background-color: rgb(23, 23, 23);
+  font-family: 'League Spartan', sans-serif;
+}
   
-  .barraNav{
-    background-color: red;
-    transition: all 2s;
-  }
+.textoMain{
+  color: white;
+}
   
+.primerTit{
+  text-align: center;
+  font-size: 40px;
+  padding: 10px;
+}
   
-  .barraNav-lista{
-    text-align: right;
-    display: flex;
-    flex-direction: row;
-    justify-content: right;
-    flex-wrap: nowrap;
-    transition: all 2s;
-  }
-  
-  .textoHeader{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    margin-left: 50%;
-    display: inline-block;
-    margin: 30px;
-    padding: 10px;
-    font-size: 20px;
-  }
-  
-  .logoPag{
-    display: flex;
-    flex-wrap: nowrap;
-    margin-left: 1%;
-    width: 300px;
-    height: 100px;
-    float: left;
-  }
-  /* INDEX */
-  body{
-    background-color: rgb(23, 23, 23);
-    font-family: 'League Spartan', sans-serif;
-  }
-  
-  .textoMain{
-    color: white;
-  }
-  
-  .primerTit{
-    text-align: center;
-    font-size: 25px;
-  }
-  
-  .primerTex{
-    text-align: center;
-    font-size: 20px;
-  }
+.primerTex{
+  text-align: center;
+  font-size: 25px;
+  margin-left: 5%;
+  margin-right: 5%;
+}
   
 .carousel-item{
   height: 350px;
   width: 50vw;
   margin-left: 25%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.carousel-item img{
+  height: 350px;
 }
 
 .segundoTit{
-    text-align: center;
-    font-size: 25px;
+  text-align: center;
+  font-size: 40px;
+  padding: 10px;
 }
 
 .segundoTex{
-    text-align: center;
-    font-size: 20px;
+  text-align: center;
+  font-size: 25px;
+  margin-left: 5%;
+  margin-right: 5%;
 }
 
 /* QUIENES-SOMOS */
@@ -80,42 +69,80 @@ a{
   margin-top: 10%;
 }
 
+.primerTit{
+  text-align: center;
+  font-size: 40px;
+  padding: 10px;
+}
+  
+.primerTex{
+  text-align: center;
+  font-size: 25px;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.carousel-item{
+  height: 350px;
+  width: 50vw;
+  margin-left: 25%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.segundoTit{
+  text-align: center;
+  font-size: 40px;
+  padding: 10px;
+}
+
+.segundoTex{
+  text-align: center;
+  font-size: 25px;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
 /* GALERIA */
 .textoMusculacion{
   text-align: center;
+  padding-top: 10px;
 }
 
 .imagenMusculacion{
-  margin-left: 70vh;
   width: 500px;
-  height: 140px;
+  height: 170px;
+  margin-left: 36%;
 }
 
 .textoCardio{
   text-align: center;
+  padding-top: 10px;
 }
 
 .imagenCardio{
-  margin-left: 70vh;
+  margin-left: 36%;
   width: 500px;
-  height: 140px;
+  height: 170px;
 }
 
 .textoVestuario{
   text-align: center;
+  padding-top: 10px;
 }
 
 .imagenVestuario{
-  margin-left: 70vh;
+  margin-left: 36%;
   width: 500px;
-  height: 140px;
+  height: 170px;
 }
 
 /* PRECIOS */
 .tituloTabla{
   color: white;
   text-align: center;
-  font-size: 30px;
+  font-size: 50px;
+  padding: 30px;
 }
 
 .tablaPrecios{
@@ -136,44 +163,467 @@ a{
   text-align: center;
 }
 
-.textoTabla{
+.textoTabla1{
   color: white;
   text-align: center;
-  font-size: 20px;
+  font-size: 30px;
+  padding-top: 2%;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.textoTabla3{
+  color: white;
+  text-align: center;
+  font-size: 25px;
+  margin-top: 2%;
 }
 
 /* CONTACTO */
 .textoMapa{
   color: white;
-  font-size: 20px;
+  font-size: 35px;
   text-align: center;
+  padding: 5px;
 }
 
 .mapa{
-  width: 35vw;
+  width: 60vw;
   height: 25vh;
-  margin-left: 32%;
+  margin-left: 20%; 
 }
 
 .formulario{
   color: white;
   font-size: 20px;
   text-align: center;
+  padding: 20px;
 }
 
 /* FOOTER */
 .footer{
+  color: rgb(255, 255, 255);
+  background-color: rgb(42, 41, 42);
+  position: absolute;
+  bottom: 0;
+  width: 100vw;
+  padding: 10px;
+  text-align: center;
+  flex-direction: row;
+  list-style: none;
+  max-width: 100%;
+}
+  
+.textoFooter{
+  color: white;
+  font-size: 25px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  flex-direction: row;
+  list-style: none;
+} 
+  
+.ulFooter{
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+
+.fa-brands{
+  list-style: none;
+}
+  
+i{
+  font-size: 35px;
+  padding: 5px;
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+}
+
+
+/* TABLET */
+
+/* INDEX */
+@media only screen and (max-width: 768px) {
+  .logoPag{
+    height: 150px;
+    width: 450px;
+    margin-left: 5px;
+  }
+  
+  .nav-link{
+    font-size: 35px;
+    margin-left: 30px;
+  }
+  
+  body{
+    background-color: rgb(23, 23, 23); 
+  }
+}
+
+/* QUIENES-SOMOS */
+@media only screen and (max-width: 768px) {
+  .primerTit{
+    text-align: center;
+    font-size: 45px;
+    padding: 15px;
+  }
+    
+  .primerTex{
+    text-align: center;
+    font-size: 25px;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+    
+  .carousel-item{
+    height: 300px;
+    width: 50%;
+  }
+
+  .carousel-item img{
+    height: 300px;
+  }
+  
+  .segundoTit{
+    text-align: center;
+    font-size: 45px;
+    padding: 15px;
+  }
+  
+  .segundoTex{
+    text-align: center;
+    font-size: 25px;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+} 
+/* GALERIA */
+@media only screen and (max-width: 768px) {
+  .textoMusculacion{
+    font-size: 40px;
+    text-align: center;
+    padding-top: 15px;
+  }
+  
+  .imagenMusculacion{
+    width: 500px;
+    height: 200px;
+    margin-left: 18%;
+  }
+  
+  .textoCardio{
+    font-size: 40px;
+    text-align: center;
+    padding-top: 15px;
+  }
+  
+  .imagenCardio{
+    margin-left: 18%;
+    width: 500px;
+    height: 200px;
+  }
+  
+  .textoVestuario{
+    font-size: 40px;
+    text-align: center;
+    padding-top: 15px;
+  }
+  
+  .imagenVestuario{
+    margin-left: 18%;
+    width: 500px;
+    height: 200px;
+  }
+}
+/* PRECIOS */
+@media only screen and (max-width: 768px) {
+  .tituloTabla{
+    color: white;
+    text-align: center;
+    font-size: 45px;
+    padding: 15px;
+  }
+  
+  .tablaPrecios{
+    color: white;
+    border-color: rgb(221,20,26);
+    margin-left: 10%;
+    height: 35vh;
+    width: 80vw;
+  }
+  
+  .turnoTabla{
+    background-color: rgb(42, 41, 42);
+    text-align: center;
+  }
+  
+  .precioTabla{
+    background-color: rgb(61, 60, 61);
+    text-align: center;
+  }
+  
+  .textoTabla1{
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    padding-top: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+  
+  .textoTabla3{
+    color: white;
+    text-align: center;
+    font-size: 25px;
+    margin-top: 4%;
+  }
+}
+/* CONTACTO */
+@media only screen and (max-width: 768px) {
+  .textoMapa{
+    color: white;
+    font-size: 40px;
+    text-align: center;
+    padding: 10px;
+  }
+  
+  .mapa{
+    width: 80vw;
+    height: 20vh;
+    margin-left: 10%; 
+  }
+  
+  .formulario{
+    color: white;
+    font-size: 35px;
+    text-align: center;
+    padding: 25px;
+    padding-right: 5%;
+    padding-left: 5%;
+  }
+}
+/* FOOTER */
+@media only screen and (max-width: 768px) {
+  .footer{
     color: rgb(255, 255, 255);
     background-color: rgb(42, 41, 42);
     position: absolute;
     bottom: 0;
     width: 100vw;
-    padding: 10px 0px;
+    padding: 5px;
     text-align: center;
     flex-direction: row;
     list-style: none;
+    max-width: 100%;
+  }
+    
+  .textoFooter{
+    color: white;
+    font-size: 35px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    flex-direction: row;
+    list-style: none;
+  } 
+    
+  .ulFooter{
+    list-style: none;
+    display: flex;
+    justify-content: center;
   }
   
+  .fa-brands{
+    list-style: none;
+  }
+    
+  i{
+    font-size: 40px;
+    padding: 5px;
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+  }
+}
+
+/* MOBILE */
+
+/* INDEX */
+@media only screen and (max-width: 425px) {
+  .logoPag{
+    height: 80px;
+    width: 300px;
+    margin-left: 5px;
+  }
+  
+  .nav-link{
+    font-size: 20px;
+    margin-left: 30px;
+  }
+
+  body{
+    background-color: rgb(23, 23, 23); 
+  }
+/* QUIENES-SOMOS */
+@media only screen and (max-width: 425px) {
+  .primerTit{
+    text-align: center;
+    font-size: 35px;
+    padding: 10px;
+  }
+    
+  .primerTex{
+    text-align: center;
+    font-size: 19px;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+    
+  .carousel-item{
+    height: 160px;
+    width: 50%;
+  }
+
+  .carousel-item img{
+    height: 160px;
+  }
+  
+  .segundoTit{
+    text-align: center;
+    font-size: 35px;
+    padding: 5px;
+  }
+  
+  .segundoTex{
+    text-align: center;
+    font-size: 19px;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+} 
+/* GALERIA */
+@media only screen and (max-width: 425px) {
+  .textoMusculacion{
+    font-size: 25px;
+    text-align: center;
+    padding-top: 10px;
+  }
+  
+  .imagenMusculacion{
+    width: 350px;
+    height: 165px;
+    margin-left: 9%;
+  }
+  
+  .textoCardio{
+    font-size: 25px;
+    text-align: center;
+    padding-top: 10px;
+  }
+  
+  .imagenCardio{
+    margin-left: 9%;
+    width: 350px;
+    height: 165px;
+  }
+  
+  .textoVestuario{
+    font-size: 25px;
+    text-align: center;
+    padding-top: 10px;
+  }
+  
+  .imagenVestuario{
+    margin-left: 9%;
+    width: 350px;
+    height: 165px;
+  }
+}
+/* PRECIOS */
+@media only screen and (max-width: 425px) {
+  .tituloTabla{
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    padding: 15px;
+  }
+  
+  .tablaPrecios{
+    color: white;
+    border-color: rgb(221,20,26);
+    margin-left: 10%;
+    height: 30vh;
+    width: 80vw;
+  }
+  
+  .turnoTabla{
+    background-color: rgb(42, 41, 42);
+    text-align: center;
+  }
+  
+  .precioTabla{
+    background-color: rgb(61, 60, 61);
+    text-align: center;
+  }
+  
+  .textoTabla1{
+    color: white;
+    text-align: center;
+    font-size: 25px;
+    padding-top: 5%;
+    margin-left: 8%;
+    margin-right: 8%;
+  }
+  
+  .textoTabla3{
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    margin-top: 5%;
+  }
+}
+/* CONTACTO */
+@media only screen and (max-width: 425px) {
+  .textoMapa{
+    color: white;
+    font-size: 25px;
+    text-align: center;
+    padding: 5px;
+  }
+  
+  .mapa{
+    width: 80vw;
+    height: 11vh;
+    margin-left: 10%; 
+  }
+  
+  .formulario{
+    color: white;
+    font-size: 23px;
+    text-align: center;
+    padding: 14px;
+  }
+}
+/* FOOTER */
+@media only screen and (max-width: 425px) {
+  .footer{
+    color: rgb(255, 255, 255);
+    background-color: rgb(42, 41, 42);
+    position: absolute;
+    bottom: 0;
+    width: 100vw;
+    padding: 5px;
+    text-align: center;
+    flex-direction: row;
+    list-style: none;
+    max-width: 100%;
+  }
+    
   .textoFooter{
     color: white;
     font-size: 25px;
@@ -184,21 +634,23 @@ a{
     flex-direction: row;
     list-style: none;
   } 
+    
+  .ulFooter{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+  }
   
-.ulFooter{
-  list-style: none;
-  display: flex;
-  justify-content: center;
-}
-
   .fa-brands{
     list-style: none;
   }
-  
+    
   i{
-    font-size: 35px;
+    font-size: 25px;
     padding: 5px;
     display: flex;
     flex-direction: row;
     list-style: none;
   }
+}
+}

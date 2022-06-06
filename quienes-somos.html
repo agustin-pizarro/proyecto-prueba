@@ -18,28 +18,38 @@
 
 <body class="cuerpo">
 
-  <header>  
-    <nav class="barraNav">
-      <img class="logoPag" src="../imagenes/logo.png" alt="Logo">
-      <ul class="barraNav-lista">
-       <li class="textoHeader">
-         <a href="../index.html">Inicio</a>
-       </li>  
-       <li class="textoHeader">
-        <a href="#">Quienes somos</a>
+<header>  
+  <nav class="navbar navbar-expand-lg navbar-dark bg-danger">
+    <a class="navbar-brand" href="#">
+      <img class="logoPag" src="/imagenes/logo.png" alt="Logo">
+    </a>
+  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarSupportedContent" style="justify-content: flex-end;">
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link" href="./index.html">Inicio
+        </a>
       </li>
-      <li class="textoHeader">
-        <a href="./galeria.html">Galeria</a>
+      <li class="nav-item active">
+        <a class="nav-link" href="#">Quienes somos
+          <span class="sr-only">(current)</span>
+        </a>
       </li>
-      <li class="textoHeader">
-       <a href="./precios.html">Precios</a>
+      <li class="nav-item">
+        <a class="nav-link" href="./galeria.html">Galeria</a>
       </li>
-      <li class="textoHeader">
-        <a href="./contacto.html">Contacto</a>
+      <li class="nav-item">
+        <a class="nav-link" href="./precios.html">Precios</a>
       </li>
-      </ul> 
-    </nav>
-  </header>
+      <li class="nav-item">
+        <a class="nav-link" href="./contacto.html">Contacto</a>
+      </li>
+    </ul>
+  </div>
+  </nav>
+</header>
 
 <main>
   <div class="textoMain">
@@ -47,8 +57,7 @@
     Nuestros inicios
     </h2>
     <h4 class="primerTex">
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
-      mollit anim id est laborum.
+      Empezamos con la idea de traer un lugar especial para cada vecino que quisiera entrenar en un lugar donde se sentiria comodo y seguro. Abrimos en 1990 y actualmente llevamos 3 decadas brindando el mejor servicio a todos nuestros clientes. Somos uno de los pocos gimnasios del barrio que entiende las necesidades de nuestros clientes y que realmente sabe como ayudarlos.
     </h4>
     <!-- CARRUSEL -->
     <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
@@ -79,10 +88,10 @@
     </div>
   </section>
     <h2 class="segundoTit">
-    Segundo Titulo
+    Nuestro personal
     </h2>
     <h4 class="segundoTex">
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+    Siempre nos caracterizamos por tener unas instalaciones de gran calidad y contar con profesores con gran experiencia para poder ayudarte en el entrenamiento. Estamos a tu lado para organizar tus entrenamientos durante la semana con planificaciones creadas por nuestros profesores segun tus necesidades.
     </h4>
   </div>
 
@@ -107,7 +116,7 @@
   </ul>
 </footer>
 
-
+<!-- BOOTSTRAP -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </body>
 </html>
